@@ -1,0 +1,31 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dataset
+data/
+
+# Training outputs and model weights
+outputs/
+*.pth
+*.pt
+*.pkl
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
